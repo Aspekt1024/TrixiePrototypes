@@ -5,6 +5,9 @@ using UnityEngine;
 public class FloatingTurret : EnemyBase {
 
     public int MaxHealth = 3;
+    public Bullet Bullet;
+    public float BulletSpeed = 5f;
+    public float ShootCooldown = 5f;
 
     private int health;
 
